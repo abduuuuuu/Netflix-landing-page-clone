@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('net.jpg');
+    
+    background-repeat: no-repeat;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+nav .logo{
+    color: red;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+nav .btn{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 3px;
+    
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: .4s;
+    
+}
+.content{
+   text-align: center;
+   padding-top: 150px;
+}
+.content h2{
+    color: #fff;
+    font-size: 50px;
+    
+}
+.content .one{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    
+}
+.content .two{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.input{
+    transform: translateX(-10px);
+    width: 450px;
+    height: 50px;
+}
+.btn2{
+    width: 160px;
+    height: 50px;
+    transform: translateX(-12px);
+    transform: translateY();
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+   
+}
+.btn2:hover{
+    background-color: white;
+    border: 2px solid transparent;
+    color: red;
+    transition: .4s;
+    border-radius: 2px;
+    border-radius: 6px;
+}
